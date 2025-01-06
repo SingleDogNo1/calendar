@@ -1,0 +1,27 @@
+{
+  "name": "@singledog/calendar",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "./dist/calendar.js",
+  "module": "./dist/calendar.mjs",
+  "types": "./dist/calendar.d.ts",
+  "exports": {
+    "default": "./dist/calendar.js",
+    "import": "./dist/calendar.mjs"
+  },
+  "keywords": [
+    "日历",
+    "农历"
+  ],
+  "author": "singledogno1",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.29.2",
+    "tslib": "^2.8.1"
+  }
+}
