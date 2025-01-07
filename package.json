@@ -11,13 +11,17 @@
     "default": "./dist/calendar.js",
     "import": "./dist/calendar.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SingleDogNo1/calendar"
+  },
   "keywords": [
     "日历",
     "农历"
   ],
   "author": "singledogno1",
   "license": "ISC",
-  "description": "",
+  "description": "china lunar calendar",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
