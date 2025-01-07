@@ -46,3 +46,14 @@ export interface DateInfo extends SloarDateInfo, LunarDateInfo {
   /** 今日节日 */
   festival: string[]
 }
+
+export interface Params {
+  /** 查询的年份 */
+  year: number
+  /** 查询的月份 */
+  month: number
+  /** 查询的日期 */
+  day: number,
+  /** (查询农历时)是否闰月 */
+  isLeap?: boolean
+}
