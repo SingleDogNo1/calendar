@@ -18,7 +18,7 @@
 ## 方法调用
 
 ```js
-import calendar from '@singledog/calendar'
+import calendar from '@single-dog-no1/calendar'
 
 // 按照农历日期查询: 2023年闰二月初一
 calendar.getDateByLunar(2023, 2, 1, true)

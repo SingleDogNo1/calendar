@@ -1,5 +1,5 @@
 {
-  "name": "@singledog/calendar",
+  "name": "@single-dog-no1/calendar",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c"
